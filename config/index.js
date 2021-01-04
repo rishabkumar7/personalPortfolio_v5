@@ -3,8 +3,7 @@ module.exports = {
   author: "@rishabkumar7",
   siteTitle: "Rishab Kumar | Portfolio",
   siteShortTitle: "Rishab", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "This is the portfolio site for Rishab Kumar.",
+  siteDescription: "This is the portfolio site for Rishab Kumar.",
   siteUrl: "https://rishabkumar.com/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -64,8 +63,7 @@ module.exports = {
     },
     {
       name: "Github",
-      url:
-        "https://github.com/rishabkumar7/",
+      url: "https://github.com/rishabkumar7/",
     },
     {
       name: "Twitter",
