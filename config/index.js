@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
+  author: "@rishabkumar7",
+  siteTitle: "Rishab Kumar | Portfolio",
   siteShortTitle: "Rishab", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    "This is the portfolio site for Rishab Kumar.",
+  siteUrl: "https://rishabkumar.com/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Rishab Kumar's Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -45,7 +45,7 @@ module.exports = {
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40rishabkumar7",
+    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fblog.rishabkumar.com%2Frss.xml",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
   shownArticles: 3,
@@ -55,12 +55,12 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Linkedin",
+      name: "LinkedIn",
       url: "https://www.linkedin.com/in/rishabkumar7/",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Blog",
+      url: "https://blog.rishabkumar.com/",
     },
     {
       name: "Github",
@@ -68,8 +68,8 @@ module.exports = {
         "https://github.com/rishabkumar7/",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Twitter",
+      url: "https://twitter.com/rishabk7",
     },
   ],
 
