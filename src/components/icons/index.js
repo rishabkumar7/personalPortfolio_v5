@@ -7,6 +7,7 @@ import IconMedium from "./medium"
 import IconGitHub from "./github"
 import IconBehance from "./behance"
 import IconExternal from "./external"
+import IconTwitter from "./twitter"
 
 // Utility function to grab Icons by name
 const Icon = ({ name, color }) => {
@@ -21,6 +22,8 @@ const Icon = ({ name, color }) => {
       return <IconGitHub color={color} />
     case "behance":
       return <IconBehance color={color} />
+    case "twitter":
+      return <IconTwitter color={color} />
     case "external":
       return <IconExternal color={color} />
     default:
