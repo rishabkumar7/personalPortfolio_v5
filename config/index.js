@@ -7,7 +7,7 @@ module.exports = {
   siteUrl: "https://rishabkumar.com/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Rishab Kumar's Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Rishab Kumar", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -94,12 +94,13 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      name: "Blog",
+      url: "https://blog.rishabkumar.com/",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      name: "Copyright",
+      url:
+        "https://github.com/rishabkumar7/personalPortfolio_v5/blob/main/LICENSE",
     },
   ],
 }
