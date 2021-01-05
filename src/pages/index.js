@@ -12,6 +12,7 @@ import Interests from "../components/sections/interests"
 import Projects from "../components/sections/projects"
 import Contact from "../components/sections/contact"
 import { seoTitleSuffix } from "../../config"
+import ParticleComponent from "../components/ParticleComponent"
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.index.edges[0].node
@@ -35,6 +36,7 @@ const IndexPage = ({ data }) => {
               : `${seoTitle}`
           }
         />
+        <ParticleComponent />
         <Hero content={data.hero.edges} />
         {/* Articles is populated via Medium RSS Feed fetch */}
         <Articles />
