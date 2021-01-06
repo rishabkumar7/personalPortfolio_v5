@@ -20,11 +20,4 @@ describe("IndexPage", () => {
     cy.wait(2000) // wait for animation
     cy.findByTestId("animated-heading").should("have.css", "opacity", "1")
   })
-
-  it("renders other pages", () => {
-    cy.findByTestId("footer-links")
-      .findByText(/imprint/i)
-      .click()
-    cy.findByTestId("heading").should("exist")
-  })
 })
