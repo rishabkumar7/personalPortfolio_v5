@@ -18,7 +18,7 @@ Just install the starter, add your content, and there you go!
 
 ---
 
-<img src="screenshot.png" alt="Gatsby Starter Portfolio Minimal Screenshot" width="600" />
+<img src="portfolio.gif" alt="Gatsby Starter Portfolio Minimal Screenshot" width="600" />
 
 ---
 
