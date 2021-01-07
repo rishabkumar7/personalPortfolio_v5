@@ -17,6 +17,7 @@ const StyledNav = styled.nav`
     }
   }
   .nav-link {
+    z-index: 2;
     font-size: 1rem;
     font-weight: 700;
     text-align: center;

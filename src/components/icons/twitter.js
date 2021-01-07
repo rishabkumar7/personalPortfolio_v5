@@ -10,7 +10,7 @@ const Twitter = ({ color }) => {
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      viewBox="262 -262 1024 1024"
+      viewBox="328 355 335 276"
       zoom="100"
     >
       <path
