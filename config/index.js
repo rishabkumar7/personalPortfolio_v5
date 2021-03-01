@@ -25,7 +25,7 @@ module.exports = {
     },
     darkTheme: {
       primary: "#FAFAFA",
-      secondary: "#2A2926",
+      secondary: "#ffdf00",
       tertiary: "#252525",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
