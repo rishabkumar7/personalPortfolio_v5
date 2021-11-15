@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: ["@babel", "react", "react-hooks", "prettier"],
   rules: {
-    "prettier/prettier": "error",
+    "prettier/prettier": 0,
     "react/no-find-dom-node": "off",
   },
 }
